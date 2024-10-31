@@ -1,0 +1,217 @@
+.fsd_gitget_grid-row {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.fsd_gitget_grid-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.fsd_gitget_list-item {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  width: 259px;
+  position: relative;
+  padding: 10px 0px 20px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fsd_gitget_list-item a, .fsd_gitget_list-item a:hover {
+	text-decoration: none;
+}
+.fsd_gitget_list-item-wrapper {
+  -webkit-box-sizing: initial;
+  box-sizing: initial;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.fsd_gitget_list-item-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.fsd_gitget_list-image-top {
+  width: 15%;
+  background-size: cover;
+  position: relative;
+  background-position: 50% 50%;
+  margin-right: 20px;
+}
+
+.fsd_gitget_list-image-top .centered {
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  background-position: center;
+}
+
+.fsd_gitget_list-item-content {
+  padding: 5px 20px 5px 0px;
+  width: 85%;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+}
+
+.fsd_gitget_item-title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.fsd_gitget_item-category {
+  text-transform: uppercase;
+  display: block;
+}
+
+.fsd_gitget_item-excerpt {
+  /*margin-bottom: 20px;*/
+  display: block;
+  font-size: 14px;
+}
+
+/*widget styles*/
+.textwidget .fsd_gitget_list-item-container {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.textwidget .fsd_gitget_inline-list-item, .image-left .fsd_gitget_inline-list-item {
+	font-size: 11px;
+	margin-bottom: 2px;
+}
+.textwidget .fsd_gitget_item-excerpt, .image-left .fsd_gitget_item-excerpt {
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.textwidget .image-left .fsd_gitget_list-item-container, .image-left .fsd_gitget_list-item-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.textwidget .fsd_gitget_list-image-top {
+    width: 100%;
+    height: 125px;
+	margin: 0px 0px 10px 0px;
+}
+.textwidget .image-left .fsd_gitget_list-image-top, .image-left .fsd_gitget_list-image-top {
+    width: 40%;
+    height: auto;
+	margin: 0px 10px 0px 0px;
+}
+.textwidget .image-left .fsd_gitget_inline-list, .image-left .fsd_gitget_inline-list {
+	margin: 0 0 0px 0;
+}
+.textwidget .image-left .fsd_gitget_inline-list-item:first-child {
+	display: none;
+}
+.textwidget .image-left .fsd_gitget_item-title {
+    font-size: 18px;
+    line-height: 22px;
+}
+.textwidget .image-left .fsd_gitget_item-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.textwidget .image-left .fsd_gitget_list-item-content, .image-left .fsd_gitget_list-item-content {
+	padding: 0px 0px 0px 0px;
+}
+.textwidget .fsd_gitget_list-item-content {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    -ms-flex-preferred-size: 60%;
+    flex-basis: auto;
+}
+.textwidget .fsd_gitget_inline-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0 0 0 0;
+}
+@media(max-width: 1333px) {
+  .fsd_gitget_list-image-top {
+    width: 15%;
+  }
+}
+
+@media(max-width: 1073px) {
+  .fsd_gitget_list-image-top {
+    width: 30%;
+  }
+}
+
+@media(max-width: 815px) {
+  .fsd_gitget_list-image-top {
+    width: 50%;
+  }
+}
+
+@media(max-width: 555px) {
+  .fsd_gitget_list-image-top {
+    width: 50%;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+/* list */
+.fsd_gitget_list-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fsd_gitget_inline-list {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+
+.fsd_gitget_inline-list-item {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.fsd_gitget_inline-list-item:not(:last-child) {
+  margin-right: 10px;
+}

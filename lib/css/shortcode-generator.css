@@ -1,0 +1,49 @@
+/* CSS for the shortcode Generator */
+.gitget-clear-list ul {
+    list-style: disc outside;
+    padding-left: 20px;
+}
+
+.gitget-clear-list ol {
+    list-style: decimal outside;
+}
+
+.gitget-clear-list ul ul, .gitget-clear-list ol ul {
+    list-style: circle outside;
+    margin-left: 25px;
+}
+
+.gitget-clear-list ol ol, .gitget-clear-list ul ol {
+    list-style: lower-latin outside;
+    margin-left: 25px;
+}
+
+.gitget-clear-list li {
+    list-style-position: outside;
+    padding: 3px;
+    margin: 0;
+}
+
+.gitget-clear-list li:hover{
+    background:#A5A5A5;
+    cursor: pointer;
+}
+
+#gitget_shortcode {
+    font-weight:bold;
+    font-size:12px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50%;
+}
+
+.center-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is_gitget_list_top {
+    display: none;
+}

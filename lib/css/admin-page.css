@@ -1,0 +1,66 @@
+/* Styles for administrator tabs */
+
+/* Manage Projects tab */
+table#gitget-manage-projects-table.fsd-gitget-updated-projects-id {
+    padding-right: 10px;
+}
+
+table#gitget-manage-projects-table.fsd-gitget-updated-projects-title {
+    padding-right: 20px;
+}
+
+table#gitget-manage-projects-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+table#gitget-manage-projects-table td, table#gitget-manage-projects-table tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table#gitget-manage-projects-table th {
+    padding: 5px 5px 0px 8px;
+}
+
+table#gitget-manage-projects-table tr:nth-child(even)  {
+    background-color: #dddddd;
+}
+
+/* About tab */
+#admin-about.fsd-gitget-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#admin-about.fsd-gitget-about img {
+    max-height: 50px;
+}
+
+#admin-about.fsd-gitget-about p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    line-height: 1.4em;
+}
+
+#admin-about.fsd-gitget-about span {
+    flex-basis: 100%;
+    font-weight: 600;
+}
+
+#admin-about-container {
+    margin-left: 5px;
+    max-width: 800px;
+    margin-top: 10px
+}
+
+#admin-about-container img.fsd-gitget-banner {
+    width: 650px;
+}
+
